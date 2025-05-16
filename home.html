@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Bank System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="home">
+  <header>
+    <h1 style="color: black;">📚 Book Bank System</h1>
+    <input type="text" id="searchBar" placeholder="Search for a book..." onkeyup="searchBooks()">
+    <div class="notification">
+      <label style="color: black;">
+        <input type="checkbox" id="notifyToggle">
+        Enable Notifications
+      </label>
+    </div>
+  </header>
+
+  <main>
+    <div id="bookList" class="book-list">
+      <!-- Books added dynamically via script.js -->
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

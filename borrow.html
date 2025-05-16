@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Borrow Book</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="borrow">
+  <div class="borrow-container">
+    <h1>Borrow Book</h1>
+    <div class="image-wrapper">
+      <img id="bookImage" class="book-img" alt="Book Cover">
+    </div>
+    <h2 id="bookTitle"></h2>
+    <p>Status: <span id="bookStatus" class="status"></span></p>
+    <div class="button">
+      <button class="conform_button" onclick="confirmBorrow()">Confirm Borrow</button>
+      <button class="proceed" onclick="window.location.href='payment.html'">Proceed to Payment</button>
+    </div>
+    <div id="notification" class="message"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
